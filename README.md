@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Dynamic Counter - Props & State Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Dynamic Counter is a React-based application aimed at demonstrating the core concepts of React, including props, state management, and event handling. This project serves as an interactive tool to solidify the understanding of these fundamental React concepts through a practical, hands-on approach.
 
-## Available Scripts
+## Features
+- **Increment/Decrement**: Adjust the count with increase and decrease functionality.
+- **User Input Handling**: Reacts dynamically to user inputs.
+- **State Management**: Demonstrates the use of React state to manage the application data.
+- **Event Handling**: Showcases handling of user events in React.
 
-In the project directory, you can run:
+## Installation
+To get started with the Dynamic Counter application, follow these steps:
 
-### `npm start`
+```bash
+# Clone the repository
+git clone https://github.com/UniversityOfEmergingTechnology/Counter.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Navigate to the project directory
+cd dynamic-counter #(your project's folder name)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Install dependencies
+npm install
 
-### `npm test`
+# Start the application
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+After installation, the application will be running on `localhost:3000` (or a port of your choice). Interact with the counter through the provided buttons to increase or decrease.
 
-### `npm run build`
+## Contributing
+Contributions to the Dynamic Counter project are welcome. If you're interested in improving or adding new features to this project, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature-name`).
+6. Create a new Pull Request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
+This project is open-sourced under the [MIT License](LICENSE).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
+For any additional questions or comments, feel free to reach out to me at emergingtechuniversity@gmail.com.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
